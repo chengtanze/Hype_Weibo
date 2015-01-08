@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WeiboSDK.h"
+@interface ViewController : UIViewController<WeiboSDKDelegate>
+- (IBAction)Login:(id)sender;
 
-@interface ViewController : UIViewController
-
+- (IBAction)GetFans:(id)sender;
 
 @end
 
