@@ -122,9 +122,14 @@
         NSLog(@"发生错误！%@",error);
         
         NSString *html  = operation.responseString;
-        
+        NSData* data=[html dataUsingEncoding:NSUTF8StringEncoding];
+        NSDictionary * dict=[NSJSONSerialization  JSONObjectWithData:data options:0 error:nil];
+        NSLog(@"获取到的数据为：%@",dict);
+
     }];
 }
+
+
 
 void DemoRequestHanlder(WBHttpRequest *httpRequest, id result, NSError *error)
 {
