@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		148C545F1A626D27004F70EE /* WeiboListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 148C545E1A626D27004F70EE /* WeiboListData.m */; };
 		14A568241A5D59C500FC85E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A568231A5D59C500FC85E9 /* main.m */; };
 		14A568271A5D59C500FC85E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A568261A5D59C500FC85E9 /* AppDelegate.m */; };
 		14A5682A1A5D59C500FC85E9 /* Hype_Weibo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14A568281A5D59C500FC85E9 /* Hype_Weibo.xcdatamodeld */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		148C545D1A626D27004F70EE /* WeiboListData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboListData.h; sourceTree = "<group>"; };
+		148C545E1A626D27004F70EE /* WeiboListData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboListData.m; sourceTree = "<group>"; };
 		14A5681E1A5D59C500FC85E9 /* Hype_Weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hype_Weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A568221A5D59C500FC85E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14A568231A5D59C500FC85E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -120,6 +123,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		148C545C1A626CC5004F70EE /* 微博数据组 */ = {
+			isa = PBXGroup;
+			children = (
+				148C545D1A626D27004F70EE /* WeiboListData.h */,
+				148C545E1A626D27004F70EE /* WeiboListData.m */,
+			);
+			name = "微博数据组";
+			sourceTree = "<group>";
+		};
 		14A568151A5D59C500FC85E9 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +155,7 @@
 		14A568201A5D59C500FC85E9 /* Hype_Weibo */ = {
 			isa = PBXGroup;
 			children = (
+				148C545C1A626CC5004F70EE /* 微博数据组 */,
 				FC6506911A5F72C80009BBA6 /* ViewCtrl */,
 				FCF90B811A5E5C7100BA8031 /* AFNetworking */,
 				FCF90B5D1A5E2DA300BA8031 /* libWeiboSDK */,
@@ -351,6 +364,7 @@
 				FCF90B961A5E5C7100BA8031 /* AFHTTPRequestOperationManager.m in Sources */,
 				FCF90B9A1A5E5C7100BA8031 /* AFURLConnectionOperation.m in Sources */,
 				FC6506901A5F72B40009BBA6 /* HomeViewController.m in Sources */,
+				148C545F1A626D27004F70EE /* WeiboListData.m in Sources */,
 				FCF90B951A5E5C7100BA8031 /* AFHTTPRequestOperation.m in Sources */,
 				14A5682D1A5D59C500FC85E9 /* ViewController.m in Sources */,
 				FCF90B9B1A5E5C7100BA8031 /* AFURLRequestSerialization.m in Sources */,

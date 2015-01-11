@@ -16,6 +16,11 @@
 @property (weak, nonatomic) IBOutlet UILabel *weiboFrom;
 @property (weak, nonatomic) IBOutlet UILabel *weiboContenx;
 @property (nonatomic) CGFloat tableViewHeight;
+@property (weak, nonatomic) IBOutlet UIView *imageGroup;
+@property (weak, nonatomic) IBOutlet UIView *transmitBtn;
+@property (weak, nonatomic) IBOutlet UIView *leaveMSG;
+@property (weak, nonatomic) IBOutlet UIView *praiseBTN;
+@property (weak, nonatomic) IBOutlet UIImageView *iamgeBack;
 
 -(CGFloat)GetTableViewHeight;
 -(void)UpDataWeiboContext;
